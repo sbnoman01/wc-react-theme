@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function App() {
+
     return (
         <>
             <div id="sidebar">
@@ -35,7 +36,7 @@ function App() {
                             <Link to='/contacts/'>Contacts</Link>
                         </li>
                         <li>
-                            <a href={`/contacts/`}>Your Friend</a>
+                            <Link to='/design/'>Design</Link>
                         </li>
                     </ul>
                 </nav>
